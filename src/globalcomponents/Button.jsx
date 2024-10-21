@@ -7,7 +7,7 @@ function Button({ data }) {
 
   return (
     <div>
-      <button onClick={handleclick} className="bg-yellow-600 p-2 rounded-lg mt-1 text-white">{data}</button>
+      <button onClick={handleclick} className="bg-yellow-600 p-2 rounded-lg mt-1 mx-2 text-white">{data}</button>
     </div>
   );
 }
